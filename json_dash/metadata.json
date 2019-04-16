@@ -1,0 +1,59 @@
+{
+  "src/lib/components/jsondash.react.js": {
+    "description": "",
+    "displayName": "jsondash",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "json": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "array"
+            },
+            {
+              "name": "object"
+            }
+          ]
+        },
+        "required": true,
+        "description": ""
+      },
+      "height": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": ""
+      },
+      "width": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": ""
+      },
+      "selected_node": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": ""
+      }
+    }
+  }
+}
